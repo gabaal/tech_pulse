@@ -1,5 +1,15 @@
+import Hero from "../components/Hero";
+import LatestPost from "../components/LatestPost";
+// import Newsletter from "../components/Newsletter";
+
 const Home = () => {
-  return <div className="text-3xl">Home</div>;
+  return (
+    <>
+      <Hero />
+      <LatestPost />
+      {/* <Newsletter /> */}
+    </>
+  );
 };
 
 export default Home;
