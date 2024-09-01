@@ -1,13 +1,13 @@
 import Hero from "../components/Hero";
 import LatestPost from "../components/LatestPost";
-// import Newsletter from "../components/Newsletter";
+import Newsletter from "../components/Newsletter";
 
 const Home = () => {
   return (
     <>
       <Hero />
       <LatestPost />
-      {/* <Newsletter /> */}
+      <Newsletter />
     </>
   );
 };
